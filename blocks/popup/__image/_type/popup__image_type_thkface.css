@@ -1,0 +1,15 @@
+@keyframes thkface {
+  0% {
+    top: 95%;
+    right: 20%;
+  }
+
+  100% {
+    top: 85%;
+    left: 50%;
+  }
+}
+
+.popup__image_type_thkface {
+  animation: thkface 2s ease-in-out 1 normal forwards running;
+}

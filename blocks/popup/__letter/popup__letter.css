@@ -1,0 +1,19 @@
+.popup__letter {
+  color: red;
+}
+
+.popup__letter:nth-child(2) {
+  color: orange;
+}
+
+.popup__letter:nth-child(3) {
+  color: green;
+}
+
+.popup__letter:nth-child(4) {
+  color: blue;
+}
+
+.popup__letter:nth-child(5) {
+  color: purple;
+}

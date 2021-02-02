@@ -1,0 +1,15 @@
+@keyframes nasta-deg {
+  0% {
+    top: 95%;
+    left: 80%;
+  }
+
+  100% {
+    top: 55%;
+    left: 66%;
+  }
+}
+
+.popup__image_type_nasta-deg {
+  animation: nasta-deg 2s ease-in-out 1 normal forwards running;
+}

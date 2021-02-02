@@ -1,0 +1,15 @@
+@keyframes fall_popug {
+  0% {
+    top: 12%;
+    left: 15%;
+  }
+
+  100% {
+    top: 100%;
+    left: 30px;
+  }
+}
+
+.popup__image_type_popug {
+  animation: fall_popug 2s ease-in-out 1 reverse forwards running;
+}

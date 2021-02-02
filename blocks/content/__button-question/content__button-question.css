@@ -1,0 +1,11 @@
+.content__button-question {
+  min-width: 80px;
+  padding: 5px;
+  font-size: 25px;
+  outline: 0;
+  background-color: transparent;
+  border: 1px dashed #ff577f;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(199, 0, 57, .5);
+  cursor: url(../../../images/thinking.png), auto;
+}

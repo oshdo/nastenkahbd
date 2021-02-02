@@ -1,0 +1,15 @@
+@keyframes fall_popug-ob {
+  0% {
+    top: 60%;
+    left: 5%;
+  }
+
+  100% {
+    top: 100%;
+    left: 5px;
+  }
+}
+
+.popup__image_type_popug-obidka {
+  animation: fall_popug-ob 2s ease-in-out 1 reverse forwards running;
+}

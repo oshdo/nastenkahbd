@@ -1,0 +1,15 @@
+@keyframes yyy {
+  0% {
+    top: 95%;
+    left: 80%;
+  }
+
+  100% {
+    top: 28%;
+    left: 73%;
+  }
+}
+
+.popup__image_type_yyy {
+  animation: yyy 2s ease-in-out 1 normal forwards running;
+}

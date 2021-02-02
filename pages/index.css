@@ -3,47 +3,43 @@
 
 /* импорт page */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__section/page__section.css);
-
-/* импорт header */
-@import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
-
-/* импорт content */
 @import url(../blocks/content/content.css);
-
-/* импорт profile */
-@import url(../blocks/profile/profile.css);
-@import url(../blocks/profile/__container/profile__container.css);
-@import url(../blocks/profile/__image/profile__image.css);
-@import url(../blocks/profile/__bio/profile__bio.css);
-@import url(../blocks/profile/__user-info/profile__user-info.css);
-@import url(../blocks/profile/__name/profile__name.css);
-@import url(../blocks/profile/__edit-button/profile__edit-button.css);
-@import url(../blocks/profile/__occupation/profile__occupation.css);
-@import url(../blocks/profile/__add-button/profile__add-button.css);
-
-/* импорт popup */
+@import url(../blocks/content/__title/content__title.css);
+@import url(../blocks/content/__button-uppertyk/content__button-uppertyk.css);
+@import url(../blocks/content/__button-uppertyk/_hidden/content__button-uppertyk_hidden.css);
+@import url(../blocks/content/__subtitle/content__subtitle.css);
+@import url(../blocks/content/__subtitle/_opened/content__subtitle_opened.css);
+@import url(../blocks/content/__button-lowertyk/content__button-lowertyk.css);
+@import url(../blocks/content/__button-lowertyk/_hidden/content__button-lowertyk_hidden.css);
+@import url(../blocks/content/__main-text/content__main-text.css);
+@import url(../blocks/content/__main-text/_opened/content__main-text_opened.css);
+@import url(../blocks/content/__button-question/content__button-question.css);
+@import url(../blocks/content/__button-question/_hidden/content__button-question_hidden.css);
+@import url(../blocks/content/__button/content__button.css);
+@import url(../blocks/content/__button/_opened/content__button_opened.css);
+@import url(../blocks/content/__present/content__present.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_kirkorov.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_popug.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_kirkorov-2.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_popug-dr.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_popug-obidka.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_sgolodniv.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_thkface.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_thkface-p.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_sad-cat.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_abaldet.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_nasta-pod.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_nasta-deg.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_nasta-nozh.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_yyy.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_nasta-uuu.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_popug-trun.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_nasta-utrom.css);
 @import url(../blocks/popup/__container/popup__container.css);
-@import url(../blocks/popup/__heading/popup__heading.css);
-@import url(../blocks/popup/__input/popup__input.css);
-@import url(../blocks/popup/__input/_text/popup__input_text_name.css);
-@import url(../blocks/popup/__input/_text/popup__input_text_occupation.css);
-@import url(../blocks/popup/__submit/popup__submit.css);
-@import url(../blocks/popup/__close/popup__close.css);
-
-/* импорт grid-container */
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/grid-container/grid-container.css);
-@import url(../blocks/grid-container/__card/grid-container__card.css);
-@import url(../blocks/grid-container/__image/grid-container__image.css);
-@import url(../blocks/grid-container/__card-container/grid-container__card-container.css);
-@import url(../blocks/grid-container/__card-name/grid-container__card-name.css);
-@import url(../blocks/grid-container/__like-button/grid-container__like-button.css);
-
-/* импорт footer */
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__letter/popup__letter.css);

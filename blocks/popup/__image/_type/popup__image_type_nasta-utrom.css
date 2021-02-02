@@ -1,0 +1,15 @@
+@keyframes utro {
+  0% {
+    top: 20%;
+    left: 30%;
+  }
+
+  100% {
+    top: 100%;
+    left: 5px;
+  }
+}
+
+.popup__image_type_nasta-utrom {
+  animation: utro 2s ease-in-out 1 reverse forwards running;
+}

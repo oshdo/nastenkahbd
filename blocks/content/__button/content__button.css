@@ -1,0 +1,25 @@
+@keyframes move_b {
+  from {
+    transform: scale(0, 0);
+  }
+
+  to {
+    transform: scale(1, 1)
+  }
+}
+
+.content__button {
+  min-width: 130px;
+  padding: 5px;
+  font-size: 35px;
+  margin: 40px auto 0;
+  outline: 0;
+  border: 0;
+  color: #000;
+  background-color: #ff577f;
+  border-radius: 5px;
+  cursor: url(../../../images/rsz_1rsz_cursed_cat.png), pointer;
+  display: none;
+  box-shadow: 0 0 5px rgba(199, 0, 57, .5);
+  animation: move_b 1s 1 linear;
+}

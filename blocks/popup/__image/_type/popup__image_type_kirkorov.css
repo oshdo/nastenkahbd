@@ -1,0 +1,15 @@
+@keyframes fall_kirkorov {
+  0% {
+    top: 1%;
+    left: 30px;
+  }
+
+  100% {
+    top: 100%;
+    left: 5px;
+  }
+}
+
+.popup__image_type_kirkorov {
+  animation: fall_kirkorov 2s ease-in-out 1 reverse forwards running;
+}

@@ -1,0 +1,27 @@
+@keyframes move_p {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.2, 1.2)
+  }
+}
+
+
+.content__present {
+  min-width: 130px;
+  padding: 10px;
+  font-size: 50px;
+  margin: 55px auto 0;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  background-image: url(../../../images/rsz_corgi-boop.jpg);
+  background-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(199, 0, 57, .5);
+  animation: move_p 0.9s 1 linear forwards;
+  text-decoration: none;
+  cursor: url(../../../images/sad-cat.png), auto;
+}

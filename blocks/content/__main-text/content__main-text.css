@@ -1,0 +1,22 @@
+@keyframes move_r {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+}
+}
+
+.content__main-text {
+  width: 100%;
+  margin: 0;
+  font-size: 35px;
+  line-height: 1.25;
+  text-align: center;
+  padding-bottom: 50px;
+  display: none;
+  animation: move_r 1s 1 ease-in-out;
+}

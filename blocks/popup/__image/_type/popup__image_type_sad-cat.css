@@ -1,0 +1,15 @@
+@keyframes sad-cat {
+  0% {
+    top: 95%;
+    left: 80%;
+  }
+
+  100% {
+    top: 81%;
+    left: 70%;
+  }
+}
+
+.popup__image_type_sad-cat {
+  animation: sad-cat 2s ease-in-out 1 normal forwards running;
+}

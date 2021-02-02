@@ -1,0 +1,16 @@
+@keyframes nasta-nozh {
+  0% {
+    top: 80%;
+    left: 10%;
+  }
+
+  100% {
+    top: 100%;
+    left: 5px;
+  }
+}
+
+.popup__image_type_nasta-nozh {
+  animation: nasta-nozh 2s ease-in-out 1 reverse forwards running;
+  height: 190px;
+}
